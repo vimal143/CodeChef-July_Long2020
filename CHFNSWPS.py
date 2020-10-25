@@ -12,7 +12,8 @@ for _ in range(int(stdin.readline())):
     d1 = Counter(a)
     d2 = Counter(b)
     d = Counter(a + b)
-    x, y = [], []
+    x = []
+    y = []
     cond = True
     for ele in d:
         if d[ele] % 2 == 0:
